@@ -44,7 +44,7 @@ int main() {
     
 
     //overflow example
-    short value1 {30000};
+    short value1 {40000};
     short value2 {1000};
     short product {value1 * value2}; // product is -15488 due to overflow
     cout << "The product of " << value1 << " and " << value2 << " is " << product << endl; 
