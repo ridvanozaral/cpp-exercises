@@ -36,7 +36,7 @@ int main() {
          << "long: " << LONG_MAX << '\n'
          << "long long: " << LLONG_MAX << '\n';
 
-    // sizeof with variable names
+    // sizeof with variable namess
 
     int age {21};
     cout << "size of the age is " << sizeof(age) << " bytes" << '\n';
